@@ -160,3 +160,16 @@ server.listen(app.get('port'), function() {
   console.log('AR. Drone WebFlight is listening on port ' + app.get('port'));
 });
 
+//var detect = function() {
+//    var c = document.getElementById('canvas');
+//    var ctx=c.getContext("2d");
+//
+//
+//
+//
+//    var imgData=ctx.getImageData(100,100, 100, 100);
+//    console.log("Pixel Colors 0-6: " + imgData[0] + imgData[1]+ imgData[2]+ imgData[3]+ imgData[4]+ imgData[5]+ imgData[6]);
+//
+//};
+//var detectTimer = setInterval(detect, 5000);
+
